@@ -1,4 +1,4 @@
-def greeter(prefix):
+def greeter(prefix): #called as factory function
     def greet(name):
         print(f"{prefix} {name}")
     return greet
